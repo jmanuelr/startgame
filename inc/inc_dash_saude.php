@@ -28,7 +28,7 @@
 				<!-- Basic line chart -->
 				<div class="panel panel-flat">
 					<div class="panel-heading">
-						<h5 class="panel-title">Basic line</h5>
+						<h5 class="panel-title">Glicemia</h5>
 						<div class="heading-elements">
 							<ul class="icons-list">
 		                		<li><a data-action="collapse"></a></li>
