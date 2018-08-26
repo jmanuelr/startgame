@@ -1,7 +1,7 @@
 <!-- Main navbar -->
 	<div class="navbar navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./"><img src="imgs/logo_noobets_white.png" alt=""></a>
+			<a class="navbar-brand" href="./"><img src="imgs/logo_start_mini.jpg" alt=""></a>
 
 			<ul class="nav navbar-nav pull-right visible-xs-block">
 				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
