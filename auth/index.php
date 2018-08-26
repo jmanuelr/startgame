@@ -63,7 +63,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Noobets</title>
+	<title>StartGame</title>
 
 	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?v=3">
 	<link rel="icon" type="image/x-icon" href="../favicon.ico?v=3">
@@ -106,7 +106,7 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./"><img src="../imgs/logo_noobets_white.png" alt=""></a>
+			<a class="navbar-brand" href="./"><img src="../imgs/logo_start_mini.jpg" alt=""></a>
 		</div>
 	</div>
 	<!-- /main navbar -->
@@ -126,7 +126,7 @@
 					<div class="panel panel-body login-form">
 						<div class="text-center">
 
-							<img src="../imgs/logo_noobets.png" width="195" height="auto" class="" />
+							<img src="../imgs/logo_start.jpg" width="195" height="auto" class="" />
 							<h5 class="content-group">Acesse sua conta <small class="display-block">Informe seu login e senha</small></h5>
 						</div>
 

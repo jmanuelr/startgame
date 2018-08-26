@@ -1,7 +1,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?=$sys_general["sys_name"]?></title>
+	<title>StartGame</title>
 
 	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v=3">
 	<link rel="icon" type="image/x-icon" href="./favicon.ico?v=3">
