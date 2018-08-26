@@ -1,0 +1,38 @@
+
+<div class="box media taskDiv" id="divTsk_{tsk_id}" status="{tsk_status}" fase="{fse_id}" tsk="{tsk_id}" pai="{tsk_pai}" condicao="{condicao}">
+	<div class="panel border-left-lg border-left-{tsk_class_alerta} {class_extra}">
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-md-12">
+					<h6 class="no-margin-top no-margin-bottom">
+						<a id="a_tsk_{tsk_id}_title" href="#" data-toggle="modal" data-target="#modal_remote" tsk="{tsk_id}">{tsk_cln_nome}</a>
+						<i class="icon-dots dragula-handle pull-right"></i>
+					</h6>
+				</div>
+			</div>
+		</div>
+		<div class="panel-footer panel-footer-condensed"><a class="heading-elements-toggle"><i class="icon-more"></i></a>
+			<a class="heading-elements-toggle"><i class="icon-more"></i></a>
+			<div class="heading-elements">
+				<span class="heading-text classFooterBox">
+					<span class="text-semibold">
+						<a id="spn_tsk_{tsk_id}_subtitle" href="#" data-toggle="modal" data-target="#modal_remote" tsk="{tsk_id}">
+						{tsk_titulo}
+						</a>
+					</span>
+				</span>
+				<ul class="list-inline list-inline-condensed heading-text pull-right">
+					<li>
+						<span class="progress-meter taskprogress" data-progress="{percentual_feito}" data-color="#4CAF50"></span>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="text-default dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i> <span class="caret"></span></a>
+						<ul class="dropdown-menu dropdown-menu-right">
+							<li><a href="#" onclick="arquivaTask({tsk_id});return false;"><i class="icon-drawer-in"></i> Arquivar</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

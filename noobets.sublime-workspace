@@ -1,0 +1,926 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"msg",
+				"msgDecodificada"
+			],
+			[
+				"int",
+				"intval"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/classes/class.acessobanco.php",
+			"settings":
+			{
+				"buffer_size": 6911,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/exame/frm.php",
+			"settings":
+			{
+				"buffer_size": 4104,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/exame/ini.php",
+			"settings":
+			{
+				"buffer_size": 2988,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/classes/class.resultadoBD.php",
+			"settings":
+			{
+				"buffer_size": 3045,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/inc_navbar_second.php",
+			"settings":
+			{
+				"buffer_size": 4920,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/inc_navbar_main.php",
+			"settings":
+			{
+				"buffer_size": 12512,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/usuario/frm.php",
+			"settings":
+			{
+				"buffer_size": 6151,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/usuario/ini.php",
+			"settings":
+			{
+				"buffer_size": 3115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/www/noobets",
+		"/C/www/noobets/inc",
+		"/C/www/noobets/inc/exame",
+		"/C/www/noobets/inc/template",
+		"/C/www/noobets/inc/usuario"
+	],
+	"file_history":
+	[
+		"/C/www/noobets/inc/exame/lst.php",
+		"/C/www/noobets/inc/inc_dashboard.php",
+		"/C/www/noobets/inc/inc_navbar_second.php",
+		"/C/www/noobets/index.php",
+		"/C/www/noobets/inc/inc_user_check.php",
+		"/C/www/noobets/act/login.php",
+		"/C/www/noobets/inc/inc_error_forbidden.php",
+		"/C/www/noobets/auth/index.php",
+		"/C/www/noobets/lib/includes/session.inc.php",
+		"/C/www/noobets/inc/inc_head.php",
+		"/C/www/noobets/inc/inc_footer.php",
+		"/C/www/noobets/lib/config/class.config.php",
+		"/C/www/noobets/lib/classes/class.workflowBD.php",
+		"/C/www/noobets/inc/inc_navbar_main.php",
+		"/C/www/noobets/assets/css/custom.css",
+		"/C/www/noobets/webmails/template_email.html",
+		"/C/www/noobets/inc/usuario/act.php",
+		"/C/www/noobets/inc/default/lst.php",
+		"/C/www/noobets/inc/inc_vars.php",
+		"/C/www/noobets/lib/includes/inc_vars.php",
+		"/C/www/noobets/lib/classes/class.usuarioBD.php",
+		"/C/www/noobets/lib/classes/class.estadoBD.php",
+		"/C/www/noobets/assets/css/core.css",
+		"/C/www/noobets/act/cadastro.php",
+		"/C/www/noobets/act/esqueci.php",
+		"/C/www/noobets/ajax/ajax_send_email_confirmacao.php",
+		"/C/www/noobets/_teste/response_deals.json",
+		"/C/www/noobets/_teste/_teste_mail.php",
+		"/C/www/goonbo/_suporte/goonbo.sql",
+		"/C/www/goonbo/_suporte/goonbo_mysql.goonbo.com.sql",
+		"/C/MinGW/ex2.c",
+		"/C/MinGW/hackathon.txt",
+		"/C/www/indrh/benchmarking/lib/classes/class.resultadoBD.php",
+		"/C/www/indrh/benchmarking/index.php",
+		"/C/www/indrh/benchmarking/act/questionario.php",
+		"/C/www/indrh/benchmarking/lib/classes/class.fichaBD.php",
+		"/C/www/indrh/benchmarking/lib/config/class.config.php",
+		"/C/www/indrh/_suporte/_.todo",
+		"/C/www/indrh/benchmarking/lib/classes/class.acessobanco.php",
+		"/C/www/indrh/benchmarking/inc/geral/inc_relatorio.php",
+		"/C/www/indrh/benchmarking/inc/geral/inc_resumo_setor_segmento.php",
+		"/C/www/indrh/benchmarking/svg/pngInverso.php",
+		"/C/www/indrh/benchmarking/svg/png.php",
+		"/C/www/indrh/benchmarking/inc/geral/inc_view_respostas.php",
+		"/C/www/indrh/teste.md",
+		"/C/www/indrh/inc_footer.php",
+		"/C/www/imbos/www04/app/lib/componentes/jqueryValidation/lib/jquery-1.7.2.js",
+		"/C/www/imbos/www04/app/js/atributo.js",
+		"/C/www/imbos/www04/app/inc/inc_atributo_block.php",
+		"/C/www/imbos/www04/app/inc/inc_page_header.php",
+		"/C/www/imbos/www04/app/assets/js/plugins/forms/selects/select2.min.js",
+		"/C/www/imbos/www04/app/inc/unidade/lst.php",
+		"/C/www/imbos/www04/app/js/default.js",
+		"/C/www/imbos/www04/app/lib/classes/class.usuarioBD.php",
+		"/C/www/imbos/www04/app/inc/empreendimento/script.js",
+		"/C/www/imbos/www04/app/inc/empreendimento/frm.php",
+		"/C/www/imbos/www04/app/auth/index.php",
+		"/C/www/imbos/www04/app/act/cadastro.php",
+		"/C/www/imbos/www04/app/lib/classes/class.acessobanco.php",
+		"/C/www/imbos/www04/app/inc/inc_navbar_second.php",
+		"/C/www/imbos/www04/app/inc/inc_modal_remote.php",
+		"/C/www/imbos/www04/inc/inc_config.php",
+		"/C/www/imbos/www04/index.php",
+		"/C/www/imbos/www04/inc/topo.php",
+		"/C/www/imbos/www04/imovel.php",
+		"/C/www/imbos/www04/inc/inc_modals.php",
+		"/C/www/imbos/www04/_teste/nearby.php",
+		"/C/www/imbos/www02/index.php",
+		"/C/www/imbos/www04/app/inc/inc_footer.php",
+		"/C/www/imbos/www04/json/index.php",
+		"/C/www/imbos/www04/json/inc_functions.php",
+		"/C/www/imbos/www04/_suporte/consultas_utiles.txt",
+		"/C/www/imbos/www04/componentes/app.js",
+		"/C/www/imbos/www04/inc/rodape.php",
+		"/C/www/pedraboa/adm/xml_menu.php",
+		"/C/www/pedraboa/lib/componentes/pdfnew/index.php",
+		"/C/www/pedraboa/lib/config/class.config.php",
+		"/C/www/imbos/www01/index.php",
+		"/C/www/imbos/www04/app/lib/componentes/bootstrap-tour/imbos_config.js",
+		"/C/www/imbos/www04/arquivos/emp/0000000001/site/emp_1.json",
+		"/C/Program Files (x86)/EasyPHP-DevServer-14.1VC11/binaries/conf_files/httpd.conf",
+		"/C/www/imbos/www04/app/lib/classes/class.RN.php",
+		"/C/www/imbos/www04/inc/inc_user_check_site.php",
+		"/C/www/imbos/www04/app/lib/config/class.config.php",
+		"/C/www/imbos/www04/api.php",
+		"/C/www/superpartes/www02/app/lib/config/class.config.php",
+		"/C/www/superpartes/www02/inc_cadastro.php",
+		"/C/www/superpartes/www02/inc_grid.php",
+		"/C/www/superpartes/www02/.gitignore"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+			"C:\\www\\noobets\\",
+			"C:\\www\\indrh\\",
+			"C:\\www\\imbos\\www04\\",
+			"C:\\www\\imbos\\www04\\app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$obj_id",
+			"id_mnu",
+			"arr_paginas_permitidas",
+			"forbi",
+			"permisso",
+			"verificaPermisso",
+			"page_template",
+			"É preciso verificar as configurações de permissão",
+			"permiss",
+			"SESSION",
+			"Equipe",
+			"eqp_",
+			"exm_",
+			"exm_i",
+			"exame",
+			"Exame",
+			"agr_",
+			"AtividadeGrupo",
+			"goonbo",
+			"Goonbo",
+			"goonbo",
+			"->Todo",
+			"Goonbo",
+			"goonbo",
+			"gooonbo",
+			"GoOnBo",
+			"delimite",
+			"#",
+			"sprintf",
+			" = ''",
+			"'', ",
+			"und",
+			"emp",
+			"getCurrentFicha",
+			"FichaBD::get",
+			"fch_validacao_dados =",
+			"fch_valida",
+			"$oArea->",
+			"path_chart",
+			"png.",
+			"arrListaResultado",
+			"sss_cln_id",
+			"flt_atv",
+			"qntd_min_grupo",
+			"taxa_amostra",
+			"pula_proximo",
+			"int_index_selected",
+			"arr_amostra",
+			"qntd_min_grupo",
+			"qntd_barras",
+			"flt_atv",
+			"qntd_min_grupo",
+			"svg",
+			"ind_precisao",
+			"rst_min",
+			"Ano Anterior",
+			" (\"+onoff+\")",
+			"bool_ativar",
+			"counter",
+			"emp",
+			"status",
+			"multiple",
+			"search",
+			"add",
+			"news",
+			"status",
+			"__DIR__",
+			" by ",
+			"select-clear",
+			"select-icons",
+			"especialis",
+			"AIzaSyCTwMPM4lSp_4zqsWHANpYnmMRdwPmqFZc",
+			"AIzaSyDfDCV5hXiPamCIT8_vwGXuzimLQ9MF76g",
+			"googleapis",
+			"HTML",
+			"imbos_conf",
+			"imbos_config",
+			"arr_plantas",
+			"$result_",
+			"label_areas",
+			"getPlantaDados",
+			"arr_info_planta",
+			"final topo",
+			"->proprie",
+			"html_cidades_mobile",
+			"html_tipos",
+			"trata_key",
+			"filtro",
+			"$tipos",
+			"tipo",
+			"DIR_IMBOS",
+			"logo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Exame",
+			"exm_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/classes/class.acessobanco.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inc/exame/frm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/exame/ini.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2386,
+								2386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/classes/class.resultadoBD.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/inc_navbar_second.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/inc_navbar_main.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11942,
+								11942
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 131.0,
+						"translation.y": 6083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "inc/usuario/frm.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5894,
+								5894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2220.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "inc/usuario/ini.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "noobets.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"navbar_main",
+				"inc\\inc_navbar_main.php"
+			],
+			[
+				"navbar_se",
+				"inc\\inc_navbar_second.php"
+			],
+			[
+				"login",
+				"act\\login.php"
+			],
+			[
+				"inc_user_check",
+				"inc\\inc_user_check.php"
+			],
+			[
+				"second",
+				"inc\\inc_navbar_second.php"
+			],
+			[
+				"user_check",
+				"inc\\inc_user_check.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"dashboard",
+				"inc\\inc_dashboard.php"
+			],
+			[
+				"custom.",
+				"assets\\css\\custom.css"
+			],
+			[
+				"footer",
+				"inc\\inc_footer.php"
+			],
+			[
+				"inc_head",
+				"inc\\inc_head.php"
+			],
+			[
+				"user_che",
+				"inc\\inc_user_check.php"
+			],
+			[
+				"inc_v",
+				"lib\\includes\\inc_vars.php"
+			],
+			[
+				"inc_var",
+				"inc\\inc_vars.php"
+			],
+			[
+				"class.confg",
+				"lib\\config\\class.config.php"
+			],
+			[
+				"workflowbd",
+				"lib\\classes\\class.workflowBD.php"
+			],
+			[
+				"usuariobd",
+				"lib\\classes\\class.usuarioBD.php"
+			],
+			[
+				"acesso",
+				"lib\\classes\\class.acessobanco.php"
+			],
+			[
+				"acessobd",
+				"lib\\classes\\class.estadoBD.php"
+			],
+			[
+				"core.css",
+				"assets\\css\\core.css"
+			],
+			[
+				"_navbar",
+				"inc\\inc_navbar_main.php"
+			],
+			[
+				"auth/ind",
+				"auth\\index.php"
+			],
+			[
+				"fichabd",
+				"benchmarking\\lib\\classes\\class.fichaBD.php"
+			],
+			[
+				"resultadobd",
+				"benchmarking\\lib\\classes\\class.resultadoBD.php"
+			],
+			[
+				"inc_relatorio.php",
+				"benchmarking\\inc\\geral\\inc_relatorio.php"
+			],
+			[
+				"relatorio/",
+				"benchmarking\\relatorio\\index.php"
+			],
+			[
+				"segmen",
+				"benchmarking\\inc\\geral\\inc_resumo_setor_segmento.php"
+			],
+			[
+				"relatorio",
+				"benchmarking\\inc\\geral\\inc_relatorio_personalizado.php"
+			],
+			[
+				"inc_rela",
+				"benchmarking\\inc\\geral\\inc_relatorio.php"
+			],
+			[
+				"inc_resumo_setor_segmento",
+				"benchmarking\\inc\\geral\\inc_resumo_setor_segmento.php"
+			],
+			[
+				"inc_relatorio",
+				"benchmarking\\inc\\geral\\inc_relatorio.php"
+			],
+			[
+				"png",
+				"benchmarking\\svg\\png.php"
+			],
+			[
+				"svg/png",
+				"benchmarking\\svg\\png.php"
+			],
+			[
+				"export",
+				"benchmarking\\script\\scr_export_excel.php"
+			],
+			[
+				"class.config",
+				"benchmarking\\lib\\config\\class.config.php"
+			],
+			[
+				"empreendimento/js",
+				"app\\inc\\empreendimento\\script.js"
+			],
+			[
+				"unidade/lst",
+				"app\\inc\\unidade\\lst.php"
+			],
+			[
+				"empreendimento/lst",
+				"app\\inc\\empreendimento\\lst.php"
+			],
+			[
+				"block",
+				"app\\inc\\inc_atributo_block.php"
+			],
+			[
+				"select2",
+				"app\\assets\\js\\plugins\\forms\\selects\\select2.min.js"
+			],
+			[
+				"selects/sele",
+				"app\\assets\\js\\plugins\\forms\\selects\\select2.min.js"
+			],
+			[
+				"atributo",
+				"app\\js\\atributo.js"
+			],
+			[
+				"auth/",
+				"app\\auth\\index.php"
+			],
+			[
+				"head",
+				"app\\inc\\inc_page_header.php"
+			],
+			[
+				"default",
+				"app\\js\\default.js"
+			],
+			[
+				"empreendimento/sc",
+				"app\\inc\\empreendimento\\script.js"
+			],
+			[
+				"empreendimento/frm",
+				"app\\inc\\empreendimento\\frm.php"
+			],
+			[
+				"topo",
+				"inc\\topo.php"
+			],
+			[
+				"rodape",
+				"inc\\rodape.php"
+			],
+			[
+				"modal",
+				"app\\inc\\inc_modal_remote.php"
+			],
+			[
+				"imovel",
+				"imovel.php"
+			],
+			[
+				"imbos_confi",
+				"app\\lib\\componentes\\bootstrap-tour\\imbos_config.js"
+			],
+			[
+				"emp_1",
+				"arquivos\\emp\\0000000001\\site\\emp_1.json"
+			],
+			[
+				"functions",
+				"json\\inc_functions.php"
+			],
+			[
+				"json/inde",
+				"json\\index.php"
+			],
+			[
+				"header",
+				"app\\inc\\inc_page_header.php"
+			],
+			[
+				"inc_chec",
+				"inc\\inc_user_check_site.php"
+			],
+			[
+				"rn",
+				"app\\lib\\classes\\class.RN.php"
+			],
+			[
+				"app.js",
+				"componentes\\app.js"
+			],
+			[
+				"auth/in",
+				"app\\auth\\index.php"
+			],
+			[
+				"inc_con",
+				"inc\\inc_config.php"
+			],
+			[
+				"class",
+				"app\\lib\\config\\class.config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
