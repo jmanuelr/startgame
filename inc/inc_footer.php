@@ -53,6 +53,10 @@
     <script type="text/javascript" src="assets/js/plugins/notifications/jgrowl.min.js"></script>
 
 
+    <script type="text/javascript" src="assets/js/plugins/visualization/echarts/echarts.js"></script>
+    <script type="text/javascript" src="assets/js/charts/echarts/lines_areas.js"></script>
+
+
 <script type="text/javascript" src="js/geral.js?dt=<?=$date_ymdhis?>"></script>
 <script type="text/javascript" src="js/default.js?dt=<?=$date_ymdhis?>"></script>
 <?

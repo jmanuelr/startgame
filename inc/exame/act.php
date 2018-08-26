@@ -27,7 +27,7 @@
 	$oExame->Nome 			= $txt_nome;
 	$oExame->DtRegistro 	= $txt_dt_registro;
 	$oExame->Descricao 		= $txt_descricao;
-	$oExame->Status 		= $txt_status;
+	$oExame->Status 		= 'A';//$txt_status;
 
 	if($bool_obj_novo){
 		$exm_id = ExameBD::add($oExame);
@@ -37,7 +37,7 @@
 		$alert_msg = "Registro alterado com sucesso!";
 	}//if
 
-	ResultadoBD::delByCondition("rsl_id_exm = ".$exm_id);//." AND rsl_id_exm = ".$exm_id
+	ResultadoBD::delByCondition("rst_id_exm = ".$exm_id);//." AND rsl_id_exm = ".$exm_id
 
 	//1:2]23:56]
 	$hdd_antropometria = trim(str_replace("[","",$_REQUEST["hdd_antropometria"]));
@@ -50,8 +50,8 @@
 				"rst_id_exm" => $exm_id,
 				"rst_id_usr" => $_SESSION["sss_usr_id"],
 				"rst_id_ant" => intval($arr_dados[0]),
-				"rst_valor"  => "'".$arr_dados[0]."'",
-				"rst_status" => "'".$arr_dados[0]."'"
+				"rst_valor"  => "'".$arr_dados[1]."'",
+				"rst_string" => "'".$arr_dados[1]."'"
 			);
 			ResultadoBD::addCustom($arr_valor);
 		}//if
@@ -59,5 +59,5 @@
 
 ?><script>
 	alert('<?=$alert_msg?>');
-	top.location.href='./?mnu=<?=$_REQUEST["mnu"]?>&page=team';
+	//top.location.href='./?mnu=<?=$_REQUEST["mnu"]?>&page=exame';
 </script>

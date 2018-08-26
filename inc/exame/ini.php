@@ -1,6 +1,7 @@
 <?
 	//--------------------------------------------------------------------------
     require_once(__DIR__.'/../../lib/classes/class.exameBD.php');
+    require_once(__DIR__.'/../../lib/classes/class.resultadoBD.php');
     //--------------------------------------------------------------------------
     $acessoBanco        = new AcessoBanco();
     //--------------------------------------------------------------------------
@@ -30,7 +31,7 @@
         }//if
         if($slc_search_status!=""){
             if($condicao!="")$condicao.=" AND";
-            $condicao .= " exmp_status = '".$slc_search_status."'";
+            $condicao .= " exm_status = '".$slc_search_status."'";
         }//if
         //--------------------------------------------------------------------------
         $oListaObjetos      = ExameBD::getLista($condicao, "exm_nome", $inicio, $max);
@@ -40,12 +41,7 @@
 
 	}elseif($obj_id > 0){
 
-        $oObjeto = ExameBD::get($obj_id);
-
-        if( $_SESSION["sss_usr_tipo"]!="A" && $_SESSION["sss_usr_tipo"]!="G" && $oObjeto->_Cliente!=$_SESSION["sss_usr_id_cln"]){
-            $oObjeto = null;
-            $obj_id = 0;
-        }//if
+        $oObjeto = ExameBD::get($obj_id);        
 
     }//if
     //--------------------------------------------------------------------------

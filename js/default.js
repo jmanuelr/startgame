@@ -152,7 +152,7 @@ function lerAntro(){
   var strAntro = '';
   var idAnt,valAnt = '';
   $('.inpAntro').each(function(){
-    idAnt = $(this).attr('id').replace(/[^0-9]/,'');
+    idAnt = $(this).attr('id').replace(/[^0-9]+/g,'');
     valAnt = $(this).val().trim();
     if(idAnt!=''&&valAnt!='')strAntro+='['+idAnt+':'+valAnt+']';
   });;

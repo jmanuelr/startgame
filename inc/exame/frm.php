@@ -4,6 +4,8 @@
 
 	$exm_id = $obj_id;
 
+	$oListaResultado = array();
+
 
 	if(is_object($oObjeto)){
 		$oExame = $oObjeto;
@@ -14,13 +16,7 @@
 		$exm_dt_registro           	 = $oExame->DtRegistro;
 		$exm_status                  = $oExame->Status;
 
-		if($_SESSION["sss_usr_tipo"]=="A" || $oExame->_Cliente == $_SESSION["sss_usr_id_cln"]){
-			//--
-			$oListaResultado = ResultadoBD::getLista("rst_id_exm = ".$exm_id);
-		}else{
-			//falhar!
-			$oExame = null;
-		}//if
+		$oListaResultado = ResultadoBD::getLista("rst_id_exm = ".$exm_id);
 
 	}else{
 		$exm_id_cln                  = 0;
@@ -30,7 +26,7 @@
 		$exm_status                  = "A";
 	}//if
 
-	$oListaMembros = UsuarioBD::getLista("usr_id_cln = ".$_SESSION["sss_usr_id_cln"]." AND usr_status = 'A'", "usr_nome");
+	$oListaMembros = array();//
 
 	$arr_membros = array();
 
@@ -70,7 +66,7 @@
 
 											<div class="form-group">
 												<label>Obs:</label>
-												<textarea rows="5" cols="5" class="form-control" placeholder="Descrição..." id="txt_descricao" name="txt_descricao" maxlength="500"><?=$exm_obs?></textarea>
+												<textarea rows="5" cols="5" class="form-control" placeholder="Descrição..." id="txt_descricao" name="txt_descricao" maxlength="500"><?=$exm_descricao?></textarea>
 											</div>
 											<? /* ?>
 											<div class="form-group">
@@ -184,6 +180,17 @@
 													<th>Valor</th>
 													<th>&nbsp;</th>
 												</tr>
+												<?
+												foreach($oListaResultado as $oResultado){
+													?>
+													<tr id="tr_ant_<?=$oResultado->_Antropometria?>">
+													    <td><?=$oResultado->Antropometria->Nome?></td>
+													    <td><input type="text" class="form-control inpAntro" id="txt_ant_<?=$oResultado->_Antropometria?>" size="5" value="<?=$oResultado->String?>" placeholder="Valor..." /></td>
+													    <td><a href="#" onclick="removeAntro(<?=$oResultado->_Antropometria?>);"><i class="icon-trash"></i></a></td>
+													 </tr>
+													<?
+												}//foreach
+												?>
 											</table>
 								</div>
 			</fieldset>

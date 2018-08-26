@@ -42,12 +42,12 @@ $(function() {
             // ------------------------------
 
             var basic_lines = ec.init(document.getElementById('basic_lines'), limitless);
-            var stacked_lines = ec.init(document.getElementById('stacked_lines'), limitless);
-            var inverted_axes = ec.init(document.getElementById('inverted_axes'), limitless);
-            var line_point = ec.init(document.getElementById('line_point'), limitless);
-            var basic_area = ec.init(document.getElementById('basic_area'), limitless);
-            var stacked_area = ec.init(document.getElementById('stacked_area'), limitless);
-            var reversed_value = ec.init(document.getElementById('reversed_value'), limitless);
+            //var stacked_lines = ec.init(document.getElementById('stacked_lines'), limitless);
+            //var inverted_axes = ec.init(document.getElementById('inverted_axes'), limitless);
+            //var line_point = ec.init(document.getElementById('line_point'), limitless);
+            //var basic_area = ec.init(document.getElementById('basic_area'), limitless);
+            //var stacked_area = ec.init(document.getElementById('stacked_area'), limitless);
+            //var reversed_value = ec.init(document.getElementById('reversed_value'), limitless);
 
 
 
@@ -658,12 +658,12 @@ $(function() {
             // ------------------------------
 
             basic_lines.setOption(basic_lines_options);
-            stacked_lines.setOption(stacked_lines_options);
-            inverted_axes.setOption(inverted_axes_options);
-            line_point.setOption(line_point_options);
-            basic_area.setOption(basic_area_options);
-            stacked_area.setOption(stacked_area_options);
-            reversed_value.setOption(reversed_value_options);
+            //stacked_lines.setOption(stacked_lines_options);
+            //inverted_axes.setOption(inverted_axes_options);
+            //line_point.setOption(line_point_options);
+            //basic_area.setOption(basic_area_options);
+            //stacked_area.setOption(stacked_area_options);
+            //reversed_value.setOption(reversed_value_options);
 
 
 

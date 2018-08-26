@@ -7,14 +7,12 @@ class ResultadoBD extends ManipulacaoDados{
 	
 	// ---- PROPRIEDADES -----
 	public static $campos = array(
-		array('nome' => 'rst_id',			'tipo' => 'num', 	'atributo' => 'Id', 			'extra' => 'primaria autoinc'),
-		array('nome' => 'rst_id_usr',		'tipo' => 'num', 	'atributo' => 'Usuario', 	'extra' => 'estrangeira', 'classe' => 'Usuario', 'arquivo_classe' => 'class.usuarioBD.php'),
-		array('nome' => 'rst_id_exm',		'tipo' => 'num', 	'atributo' => 'Exame', 		'extra' => 'estrangeira', 'classe' => 'Exame', 'arquivo_classe' => 'class.exameBD.php'),
-		array('nome' => 'rst_id_ant',		'tipo' => 'num', 	'atributo' => 'Antropometria', 		'extra' => 'estrangeira', 'classe' => 'Antropometria', 'arquivo_classe' => 'class.antropometriaBD.php'),
+		array('nome' => 'rst_id_usr',		'tipo' => 'num', 	'atributo' => 'Usuario', 	'extra' => 'primaria estrangeira', 'classe' => 'Usuario', 'arquivo_classe' => 'class.usuarioBD.php'),
+		array('nome' => 'rst_id_exm',		'tipo' => 'num', 	'atributo' => 'Exame', 		'extra' => 'primaria estrangeira', 'classe' => 'Exame', 'arquivo_classe' => 'class.exameBD.php'),
+		array('nome' => 'rst_id_ant',		'tipo' => 'num', 	'atributo' => 'Antropometria', 		'extra' => 'primaria estrangeira', 'classe' => 'Antropometria', 'arquivo_classe' => 'class.antropometriaBD.php'),
 		array('nome' => 'rst_nome',			'tipo' => 'alfa', 	'atributo' => 'Nome'),
 		array('nome' => 'rst_valor',		'tipo' => 'alfa', 	'atributo' => 'Valor'),
-		array('nome' => 'rst_string',		'tipo' => 'alfa', 	'atributo' => 'String'),
-		array('nome' => 'rst_status',		'tipo' => 'alfa', 	'atributo' => 'Status')
+		array('nome' => 'rst_string',		'tipo' => 'alfa', 	'atributo' => 'String')
 	);
 	public static $tabela = array('nome' => 'gnb_resultado', 'classe' => 'Resultado');
 	//-----------------------------------------------------------------------------------------------	
