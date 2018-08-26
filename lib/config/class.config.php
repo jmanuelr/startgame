@@ -26,10 +26,10 @@ if (!defined("_CLASS_CONFIG")) {
 			$arr_localhost = array("localhost","127.0.0.1");
 
 			if($_SERVER['HTTP_HOST'] == "www.noobets.com" || $_SERVER['HTTP_HOST'] == "noobets.com"){
-				$this->server 		= "mysql.noobets.com";
-				$this->user			= "noobets";
-				$this->password		= "31ns3nb4hn";
-				$this->base			= "noobets";
+				$this->server 		= "mysql.superpartes.com.br";
+				$this->user			= "superpartes";
+				$this->password		= "v3l0z3s3fur10s0s";
+				$this->base			= "superpartes";
 			}else{//in_array($_SERVER['HTTP_HOST'], $arr_localhost)
 				$this->server 		= "127.0.0.1";
 				$this->user			= "root";
