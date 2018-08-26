@@ -126,7 +126,7 @@
 					<div class="panel panel-body login-form">
 						<div class="text-center">
 
-							<img src="../imgs/logo_start.jpg" width="195" height="auto" class="" />
+							<img src="../imgs/logo_startgame.png" width="195" height="auto" class="" />
 							<h5 class="content-group">Acesse sua conta <small class="display-block">Informe seu login e senha</small></h5>
 						</div>
 

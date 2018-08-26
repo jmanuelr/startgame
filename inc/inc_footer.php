@@ -54,7 +54,7 @@
 
 
     <script type="text/javascript" src="assets/js/plugins/visualization/echarts/echarts.js"></script>
-    <script type="text/javascript" src="assets/js/charts/echarts/lines_areas.js"></script>
+    <? /* <script type="text/javascript" src="assets/js/charts/echarts/lines_areas.js"></script> */ ?>
 
 
 <script type="text/javascript" src="js/geral.js?dt=<?=$date_ymdhis?>"></script>
@@ -116,4 +116,9 @@
     }//if
     ?>
     });
+    <?
+    if($_REQUEST["mnu"]==""){
+        include(__DIR__."/inc_lineas_area_js.php");
+    }//if
+    ?>
 </script>

@@ -16,6 +16,10 @@ require_once(__DIR__."/../lib/classes/class.RN.php");
 require_once(__DIR__."/../lib/classes/class.formata_string.php");
 require_once(__DIR__."/../lib/classes/class.menuBD.php");
 
+require_once(__DIR__."/../lib/classes/class.antropometriaBD.php");
+require_once(__DIR__."/../lib/classes/class.exameBD.php");
+require_once(__DIR__."/../lib/classes/class.resultadoBD.php");
+
 require_once(__DIR__."/../lib/classes/class.configuracaoBD.php");
 require_once(__DIR__."/../lib/classes/class.fieldBD.php");
 require_once(__DIR__."/../lib/classes/class.field_faseBD.php");
