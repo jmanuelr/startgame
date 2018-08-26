@@ -23,7 +23,7 @@
 		<div class="panel panel-flat">
 			<div class="panel-body">
 				<?
-
+				
 				?>
 				<!-- Basic line chart -->
 				<div class="panel panel-flat">
